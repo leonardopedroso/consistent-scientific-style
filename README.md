@@ -102,7 +102,7 @@ saveas(gca,'./fig/filename.eps','epsc');
 - References to tables, figures, algorithms with first letter capitalized (Table, Figure, Fig., Algorithm), non breaking space, and \ref{} command
     - e.g. ```Table~\ref{tab:egtable}```, ```Figure~\ref{fig:egfigure}```, ```Fig.~\ref{fig:egfigure}```, ```Algorithm~\ref{alg:egfigure}```
 - References to books or specific results in papers should be specified if it helps the reader
-    - e.g. ```\cite\[Chapter~5\]{book}```, ```\cite\[Theorem~2\]{paper}```
+    - e.g. ```\cite[Chapter~5]{book}```, ```\cite[Theorem~2]{paper}```
 - References to equations with ```\eqref{}```
     - e.g. ```substituting \eqref{eq:covariance} in \eqref{eq:update} yields```.
     - Do NOT: ```substituting Equation \eqref{eq:covariance} (...)```
