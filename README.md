@@ -16,6 +16,9 @@
   - e.g. *I need to buy (i)~sugar; (ii)~flour; and (iii)~chocolate*
 - Units should be typeset in $\mathrm{}$ style
   - e.g. ```$\omega = 7.29\times10^{-5}\,\mathrm{rad/s}$```
+- Acronims should be only introduced once
+   - e.g. "this is a challenge idetified by the United Nations (UN)"
+   - 
 
 ### Variables
 
@@ -36,7 +39,7 @@
 the travel time on arc $(i,j)\in \mathcal{A}$ is given by 
 \begin{equation*}
 t(i,j) = t_0(i,j)(1+\alpha(f(i,j)/c_{ij})^\beta),
-\end{equation}
+\end{equation*}
 where $t_0(i,j)$ is the free flow travel time, $\alpha$ is (...)
 ```
 
