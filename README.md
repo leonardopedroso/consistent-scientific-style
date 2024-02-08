@@ -99,7 +99,7 @@ saveas(gca,'./fig/filename.eps','epsc');
 
 ### References
 - Bibtex references must be double checked and properly formatted:
-    - Journal papers (@article) fields: author, title, journal, year, volume, pages, doi (no url!)
+    - Journal papers (@article) fields: author, title, journal, year, volume, number, pages, doi (no url!)
     - Conference papers (@inproceedings) fields: author, title, booktitle, year, pages, doi (no url!)
     - Do NOT just blindly copy and paste bibtex from Google Scholar :)
 - References to tables, figures, algorithms with first letter capitalized (Table, Figure, Fig., Algorithm), non breaking space, and \ref{} command
