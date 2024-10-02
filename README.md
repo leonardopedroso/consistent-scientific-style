@@ -3,7 +3,7 @@
 ## Revision
 
 - Changes in relation to previous version in blue (```\textcolor{blue}{}```)
-    - May also define ```\newcommand{\rev}[1]{{\leavevmode#1}}``` and use ```\rev{}```
+    - May also define ```\newcommand{\rev}[1]{{\leavevmode\color{blue}#1}}``` and use ```\rev{}```
 - Set status to all comments in the pdf of the revision
 
 ## Style
