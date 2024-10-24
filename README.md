@@ -18,7 +18,6 @@
   - e.g. ```$\omega = 7.29\times10^{-5}\,\mathrm{rad/s}$```
 - Acronims should be only introduced once
    - e.g. "this is a challenge idetified by the United Nations (UN)"
-   - 
 
 ### Variables
 
@@ -95,6 +94,20 @@ hold off;
 savefig('./fig/filename.fig');
 set(gcf,'renderer','Painters');
 saveas(gca,'./fig/filename.eps','epsc');
+```
+
+It is suggested to use the following colorblind-safe color palette:
+```matlab
+% Colorblind-safe color palette (Wong, B. Points of view: Color blindness.
+% Nat Methods 8,441 (2011). https://doi.org/10.1038/nmeth.1618)
+color.black = [0 0 0]/255;
+color.orange = [230 159 0]/255;
+color.cyan = [86 180 233]/255;
+color.green = [0 158 115]/255;
+color.yellow = [240 228 66]/255;
+color.blue = [0 114 178]/255;
+color.red = [213 94 0]/255;
+color.pink = [204 121 167]/255;
 ```
 
 ### References
