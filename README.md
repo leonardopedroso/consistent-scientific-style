@@ -14,9 +14,9 @@
   - e.g. *I need to buy sugar, flour, and chocolate)*
 - Long text enumerations with nonbreaking space “~”, separated by semicolon, and enumerated with (i), (ii)…
   - e.g. *I need to buy (i)~sugar; (ii)~flour; and (iii)~chocolate*
-- Units should be typeset in $\mathrm{}$ style
+- Units should be typeset in ``\mathrm{}`` style
   - e.g. ```$\omega = 7.29\times10^{-5}\,\mathrm{rad/s}$```
-- Acronims should be only introduced once
+- Acronyms should be only introduced once
    - e.g. "this is a challenge idetified by the United Nations (UN)"
 
 ### Variables
